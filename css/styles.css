@@ -1,0 +1,137 @@
+body {
+  padding-top: 56px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Padding para el logo */
+.navbar-brand {
+  padding-left: 10px;
+}
+
+/* Imágenes del carrusel */
+.carousel-item img {
+  height: 900px;
+  object-fit: cover;
+}
+
+/* Textos del carrusel */
+.minimal-caption {
+  text-align: left;
+  left: 5%;
+  right: 5%;
+  bottom: 20%;
+}
+
+.minimal-caption h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.minimal-caption p {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+/* Espaciado inferior para los productos del catálogo */
+.product {
+  margin-bottom: 0.5rem;
+}
+
+.product .card {
+  transform: scale(0.8);
+  margin: auto;
+}
+
+/* Textos destacados */
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+/* Barra de navegación */
+.navbar-nav .nav-link {
+  color: #333 !important;
+}
+
+/* Sección de Beneficios */
+#beneficios .card {
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background-color: #0fb666;
+}
+
+#beneficios .card i {
+  color: #ffffff;
+}
+
+#beneficios .btn-success {
+  background-color: #0fb666;
+  border-color: #0fb666;
+}
+
+#beneficios .btn-success:hover {
+  background-color: #0ea55d;
+  border-color: #0ea55d;
+}
+
+/* Servicios */
+#servicios .card {
+  transition: transform 0.3s ease-in-out;
+}
+
+#servicios .card:hover {
+  transform: scale(1.05);
+}
+
+#servicios .btn-outline-success {
+  color: #0fb666;
+  border-color: #0fb666;
+}
+
+#servicios .btn-outline-success:hover {
+  background-color: #0fb666;
+  color: #ffffff;
+}
+
+/* Formulario */
+.modal-content {
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-header .btn-close {
+  outline: none;
+  box-shadow: none;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Sobre Nosotros */
+#nosotros,
+#mision {
+  display: flex;
+  align-items: center;
+}
+
+#nosotros .col-md-6,
+#mision .col-md-6 {
+  padding: 2rem;
+}
+
+#nosotros img,
+#mision img {
+  border-radius: 10px;
+}
+
+#nosotros h2,
+#mision h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
